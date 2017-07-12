@@ -1,0 +1,10 @@
+#!/bin/bash
+
+FUNC_NAME=`basename $0 | sed 's/\(\..*\)$//'`
+
+python-lambda-local \
+  -l regex3.6/lib \
+  -f lambda_handler \
+  -t 3 \
+  lambda_function.py \
+  event-samples/$FUNC_NAME.json

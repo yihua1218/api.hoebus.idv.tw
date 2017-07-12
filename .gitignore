@@ -4,3 +4,9 @@ jspm_packages
 
 # Serverless directories
 .serverless
+
+# Python
+__pycache__
+
+# Mac OS cache
+.DS_Store
