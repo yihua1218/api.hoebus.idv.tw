@@ -1,0 +1,14 @@
+{
+  "name": "hoebus-mailbox",
+  "version": "1.0.0",
+  "description": "1. 每日讀取信箱內容 2. 讀取的信箱：",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-outlook": "^1.1.6"
+  }
+}
