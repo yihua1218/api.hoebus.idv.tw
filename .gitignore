@@ -10,3 +10,5 @@ __pycache__
 
 # Mac OS cache
 .DS_Store
+yarn.lock
+README
